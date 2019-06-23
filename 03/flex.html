@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--<link rel="stylesheet" href="css/bootstrap.css">-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Flexbox</title>
+  <style media="screen">
+    .con{
+      background-color: #f1f1f1;
+      height: 100vh;
+    }
+
+    .orange{
+      background-color: orange;
+      /* height: 100px; */
+    }
+
+    .red{
+      background-color: red;
+      /* height: 100px; */
+    }
+
+    .rowHeight{
+      background-color: black;
+      height: 100px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container con">
+    <div class="row rowHeight align-items-center">
+      <div class="col-sm orange">column 1</div>
+      <div class="col-sm red">column 2</div>
+      <div class="col-sm orange">column 3</div>
+    </div>
+
+    <div class="row">Blank Row 1</div>
+
+    <div class="row rowHeight align-items-start">
+      <div class="col-sm orange">column 1</div>
+      <div class="col-sm col-md-auto red">Lorem ipsum dolor sit amet.</div>
+      <div class="col-sm orange">column 3</div>
+    </div>
+
+    <div class="row">Blank Row 2</div>
+
+    <div class="row rowHeight align-items-end">
+      <div class="col-sm orange">column 1</div>
+      <div class="col-sm red">column 2</div>
+      <div class="col-sm orange">column 3</div>
+    </div>
+
+    <div class="row">Blank Row 3</div>
+
+    <div class="row rowHeight">
+      <div class="col align-self-end orange">column 1</div>
+      <div class="col  align-self-center red">column 2</div>
+      <div class="col  align-self-start orange">column 3</div>
+    </div>
+
+<!--
+    <div class="row">Blank Row 4</div>
+
+    <div class="row rowHeight">
+      <div class="col-lg-6 col-md-4 col-sm-6 orange">column 1</div>
+      <div class="col-lg-3 col-md-4 col-sm-3 red">column 2</div>
+      <div class="col-lg-3 col-md-4 col-sm-3 orange">column 3</div>
+    </div> -->
+
+  </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>

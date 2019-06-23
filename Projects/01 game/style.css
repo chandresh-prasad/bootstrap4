@@ -17,3 +17,8 @@ body{
   line-height: 1.2em;
   font-family: 'Source Code Pro', monospace;
 }
+
+.display-1{
+  color: #fff;
+  font-style: bold;
+}
